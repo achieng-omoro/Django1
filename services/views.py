@@ -1,15 +1,9 @@
-from django.shortcuts import render
 
-# Create your views here.
-from django.shortcuts import render
-
-# Create your views here.
-from django.shortcuts import render
-
-# Create your views here.
-from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render
+
+
 # Create your views here.
 
 def services(request):
-    return HttpResponse("Our services")
+    return render(request, 'services.html')
